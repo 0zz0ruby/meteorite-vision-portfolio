@@ -1,0 +1,31 @@
+{
+  "name": "confidence_interval_threshold_v2",
+  "models": {
+    "convnext": {
+      "low": 0.4891,
+      "high": 0.6124,
+      "weight": 0.2696
+    },
+    "swin": {
+      "low": 0.5862,
+      "high": 0.6973,
+      "weight": 0.0981
+    },
+    "dinov2": {
+      "low": 0.2460,
+      "high": 0.8884,
+      "weight": 0.2489
+    },
+    "efficientnet": {
+      "low": 0.0905,
+      "high": 0.4400,
+      "weight": 0.3834
+    }
+  },
+  "vote_threshold": -0.1750,
+  "weight_sum": 1.0,
+  "documented_public_f1": 0.78260,
+  "final_team_leaderboard_f1": 0.78284,
+  "provenance": "Recovered from the preserved v2 parameter screenshot. The fitting script was not retained.",
+  "important_note": "These exact parameters are evidenced for the 0.78260 v2 submission. They must not be represented as the unverified parameter set behind the separate 0.78284 leaderboard result."
+}

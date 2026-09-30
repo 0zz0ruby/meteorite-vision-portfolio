@@ -1,0 +1,2 @@
+filename,size_bytes,size_mib,sha256,ownership,repository_policy
+dinov2_best_model.pth,88315848,84.22,931fa433cc8bc0f6a399faea00776e5034540e76b6d383005bdb566c4e8732e1,individual_contribution,external_artifact

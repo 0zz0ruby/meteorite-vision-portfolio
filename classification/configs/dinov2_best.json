@@ -1,0 +1,26 @@
+{
+  "model_name": "dinov2_vits14",
+  "training_mode": "frozen_backbone_linear_head",
+  "concat_layers": 2,
+  "feature_dimension": 768,
+  "image_size": 224,
+  "batch_size": 128,
+  "learning_rate": 0.003,
+  "weight_decay": 0.01,
+  "epochs": 30,
+  "patience": 8,
+  "min_delta": 0.0,
+  "seed": 42,
+  "validation_size": 0.2,
+  "best_epoch": 28,
+  "validation_macro_f1": 0.920356,
+  "augmentation": [
+    "RandomResizedCrop",
+    "RandomHorizontalFlip",
+    "RandomVerticalFlip",
+    "GaussianBlur"
+  ],
+  "validation_split": "stratified group split using perceptual image hashes",
+  "training_images": "background-removed training set",
+  "source": "recovered from the final checkpoint metadata; checkpoint intentionally omitted"
+}

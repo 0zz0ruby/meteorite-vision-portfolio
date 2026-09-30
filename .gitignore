@@ -1,0 +1,31 @@
+# Data and model artifacts
+data/
+datasets/
+checkpoints/
+weights/
+outputs/
+submissions/
+generated_pictures/
+external_images/
+*.pth
+*.pt
+*.ckpt
+
+# Course packages and reports containing personal/team information
+*.zip
+*.7z
+*.rar
+*.pdf
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

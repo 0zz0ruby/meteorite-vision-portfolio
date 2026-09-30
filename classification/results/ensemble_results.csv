@@ -1,0 +1,5 @@
+result,online_f1,exact_parameters_preserved,evidence
+best_single_model_convnext,0.74,no,team presentation
+four_model_simple_average,0.75000,no,team presentation
+confidence_interval_v2,0.78260,yes,submission screenshot and parameter screenshot
+final_team_leaderboard,0.78284,no,course leaderboard screenshot

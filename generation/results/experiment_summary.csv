@@ -1,0 +1,8 @@
+version,main_change,fid,status,evidence
+dcgan_baseline,DCGAN baseline,245.9168,completed,experiment notebook and report
+wgan_gp_v1,replace clipping with gradient penalty,189.7166,completed,experiment notebook and report
+wgan_gp_v2,rebalance generator and discriminator capacity,170.82,completed,experiment report
+wgan_gp_v3,add spectral normalization and tune training balance,137.25,completed,comparison table in report
+wgan_gp_v3_official,final evaluation on 1000 generated and 2682 real images,134.203409,completed,fid_metrics.json
+wgan_gp_v4,EMA plus larger capacity and stronger augmentation,400+,failed but retained,experiment notebook and report
+wgan_gp_v5,feature matching loss,,exploratory,no reliable final result preserved

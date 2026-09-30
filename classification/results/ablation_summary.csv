@@ -1,0 +1,7 @@
+experiment,change,validation_f1,online_f1,conclusion,evidence
+best_dinov2_vits14,"frozen ViT-S/14; concatenate final two CLS tokens",,0.73,best single-model submission,checkpoint metadata and project report
+single_cls_token,concatenate one CLS token only,,0.70,lower than two-layer representation,project report
+larger_backbone,replace ViT-S/14 with ViT-B/14,,0.68,larger backbone did not generalize better,project report
+external_images,add 100+ scraped and background-removed meteorite images,,0.71,extra data introduced additional domain mismatch,project report
+no_gaussian_blur,remove GaussianBlur augmentation,,0.70,blur augmentation helped robustness,project report
+staged_resolution,train with progressively larger input resolution,,,no measurable gain,project report
