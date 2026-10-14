@@ -13,7 +13,7 @@ are intentionally excluded. Metadata and a SHA-256 hash are retained only for
 the DINOv2 checkpoint produced in the author's individual model branch.
 
 Competition context: [Meteorite Identification](https://www.kaggle.com/competitions/meteorite-identification)
-and [Meteorite Identification — Stage 2](https://www.kaggle.com/competitions/meteorite-identification-stage-2/data).
+and [Meteorite Identification — Stage 2](https://www.kaggle.com/competitions/meteorite-identification-stage-2).
 
 ![Generated meteorite samples](assets/wgan_gp_generated_samples.png)
 
