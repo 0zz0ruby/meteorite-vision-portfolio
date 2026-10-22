@@ -24,7 +24,7 @@ and [Meteorite Identification — Stage 2](https://www.kaggle.com/competitions/m
 - Developed and ablated a **DINOv2 frozen-feature classifier**, including
   multi-layer CLS features, grouped validation, augmentation and test-time
   augmentation; best individual online F1: **0.73**.
-- Collected and processed **100+ external meteorite images**, then used the
+- Collected and processed **500+ external meteorite images**, then used the
   negative result (0.73 → 0.71) to diagnose additional domain mismatch.
 - Proposed **multi-model voting** after single-model improvements plateaued.
   A preserved confidence-interval configuration achieved **0.78260** public
