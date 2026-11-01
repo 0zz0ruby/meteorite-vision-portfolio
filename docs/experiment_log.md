@@ -38,8 +38,10 @@ The recovered project report records these online results:
 | Two final CLS tokens, ViT-S/14 | 0.73 | Best individual model |
 | One CLS token | 0.70 | Less expressive frozen representation |
 | ViT-B/14 | 0.68 | Increased capacity did not improve transfer |
-| 100+ external images | 0.71 | External data introduced domain mismatch |
+| External-data augmentation | 0.71 | External data introduced domain mismatch |
 | Remove GaussianBlur | 0.70 | Blur augmentation improved robustness |
+
+The author confirms collecting and processing **500+ external meteorite images in total**. This total supersedes the earlier 100+ collection count. It does not establish how many images were included in any individual training run; the augmentation result above is reported without a per-run image count.
 
 Progressive-resolution training was also tried and produced no meaningful
 gain. Because per-run logs are missing, these values are reported as recovered
